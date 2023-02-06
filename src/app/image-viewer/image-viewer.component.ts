@@ -9,7 +9,7 @@ import Viewer from 'viewerjs';
 export class ImageViewerComponent implements OnInit {
   constructor(private renderer: Renderer2) {}
   viewer: any;
-  // imageSrc = '../../assets/image.png';
+  // imageSrc = '../../assets/image-1.png';
   imageSources = [
     '../../assets/image-1.png',
     '../../assets/image-2.png',
