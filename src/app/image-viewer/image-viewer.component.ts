@@ -1,11 +1,13 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import Viewer from 'viewerjs';
-
 @Component({
   selector: 'app-image-viewer',
+  standalone: true,
+  imports: [],
   templateUrl: './image-viewer.component.html',
   styleUrls: ['./image-viewer.component.css'],
 })
+
 export class ImageViewerComponent implements OnInit {
   constructor(private renderer: Renderer2) {}
   viewer: any;
